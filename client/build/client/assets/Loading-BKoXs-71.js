@@ -1,0 +1,1 @@
+import{o as s}from"./chunk-AYJ5UCUI-6a0CsxBx.js";const t=({lines:a})=>s.jsx("div",{className:"p-4 space-y-2",children:Array.from({length:a}).map((r,e)=>s.jsx("div",{className:"h-4 w-2/3 bg-slate-700 rounded animate-pulse"},e))});export{t as L};
