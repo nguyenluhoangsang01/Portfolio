@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+@theme {
+	--font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html,
+body {
+	@apply bg-[#252A34] text-white;
+}
+
+button {
+	@apply cursor-pointer;
+}
+
+.ProseMirror {
+	min-height: 400px;
+	padding: 0.5rem;
+	outline: none;
+}
+
+.btn {
+	@apply px-2 py-1 rounded bg-blue-500 text-white hover:bg-blue-600 text-sm transition;
+}
+
+pre {
+	@apply bg-[#1E2128] p-4 rounded text-sm overflow-x-auto;
+}
+
+pre code {
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.format ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul {
+	@apply list-disc pl-12;
+}
+
+button:disabled {
+	cursor: not-allowed;
+}

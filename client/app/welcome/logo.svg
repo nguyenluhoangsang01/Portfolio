@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+  <!-- Hình tròn mờ bên ngoài -->
+  <circle cx="18" cy="18" r="14" fill="none" stroke="#8a2be2" stroke-width="1" stroke-dasharray="2,1"/>
+  
+  <!-- Mặt nạ hacker nhỏ -->
+  <circle cx="18" cy="18" r="10" fill="#16213e"/>
+  
+  <!-- Mắt -->
+  <rect x="12" y="15" width="5" height="3" rx="1" fill="#ff2e63"/>
+  <rect x="19" y="15" width="5" height="3" rx="1" fill="#ff2e63"/>
+  
+  <!-- Nụ cười hình răng cưa -->
+  <path d="M14,21 L16,23 L18,21 L20,23 L22,21" stroke="#ff2e63" stroke-width="1.5" fill="none"/>
+  
+  <!-- Các ký tự hacker xung quanh -->
+  <text x="7" y="12" font-family="monospace" font-size="2" fill="#00ff9f" transform="rotate(-30, 7, 12)">$</text>
+  <text x="27" y="12" font-family="monospace" font-size="2" fill="#00ff9f" transform="rotate(30, 27, 12)">#</text>
+  <text x="7" y="24" font-family="monospace" font-size="2" fill="#00ff9f" transform="rotate(30, 7, 24)">@</text>
+  <text x="27" y="24" font-family="monospace" font-size="2" fill="#00ff9f" transform="rotate(-30, 27, 24)">!</text>
+  
+  <!-- Tai nhọn/sừng -->
+  <path d="M12,12 L14,18 L18,8 L22,18 L24,12" fill="#16213e" stroke="#8a2be2" stroke-width="1"/>
+  
+  <!-- Chữ M nhỏ -->
+  <path d="M14,26 L16,30 L18,26 L20,30 L22,26" stroke="#ff2e63" stroke-width="1.5" fill="none"/>
+</svg>
