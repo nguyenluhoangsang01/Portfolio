@@ -9,8 +9,8 @@ import { fileURLToPath } from "url";
 
 dotenv.config();
 
-const PORT = process.env.PORT || 8000;
-const HOST = process.env.HOST || "localhost";
+const PORT = process.env.PORT || 8080;
+const HOST = process.env.HOST || "0.0.0.0";
 
 const app = express();
 
