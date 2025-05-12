@@ -226,7 +226,7 @@ const formatDate = (isoString) => {
   });
 };
 const api = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: "http://serverfolio-production.up.railway.app:8080/api",
   headers: {
     "Content-Type": "application/json"
   }
